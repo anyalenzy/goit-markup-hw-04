@@ -274,7 +274,8 @@ body {
   fill: #f4f4fd;
 }
 .blue-circle:hover,
-.blue-circle:focus {
+.blue-circle:focus,
+.blue-circle:active {
   background-color: #404bbf;
 }
 .section-portfolio-list {
