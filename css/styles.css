@@ -135,7 +135,7 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/bg-1-section.png);
+    url(../images/bg-1-section.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -271,9 +271,10 @@ body {
 .icon {
   fill: #f4f4fd;
 }
-.blue-circle:hover,
-.blue-circle:focus,
-.blue-circle:active {
+.blue-circle:hover {
+  background-color: #404bbf;
+}
+.blue-circle:focus {
   background-color: #404bbf;
 }
 .section-portfolio-list {
@@ -357,7 +358,9 @@ body {
 .footer-social-media .icon-list {
   gap: 16px;
 }
-.footer-social-media .icon-list .blue-circle:hover,
+.footer-social-media .icon-list .blue-circle:hover {
+  background-color: #31d0aa;
+}
 .footer-social-media .icon-list .blue-circle:focus {
   background-color: #31d0aa;
 }
