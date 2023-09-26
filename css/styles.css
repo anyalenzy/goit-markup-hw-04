@@ -271,12 +271,11 @@ body {
 .icon {
   fill: #f4f4fd;
 }
-.blue-circle:hover {
-  background-color: #404bbf;
-}
+.blue-circle:hover,
 .blue-circle:focus {
   background-color: #404bbf;
 }
+
 .section-portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -358,9 +357,7 @@ body {
 .footer-social-media .icon-list {
   gap: 16px;
 }
-.footer-social-media .icon-list .blue-circle:hover {
-  background-color: #31d0aa;
-}
+.footer-social-media .icon-list .blue-circle:hover,
 .footer-social-media .icon-list .blue-circle:focus {
   background-color: #31d0aa;
 }
